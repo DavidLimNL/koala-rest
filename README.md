@@ -1,18 +1,20 @@
-# lekker-sa-kos
+# Koala REST
+
+
 
 ## Libraries used:
 * Spring Boot 1.4.2 
 * log4j2 (via Spring Boot)
 * JUnit4 (via Spring Boot)
 * Mockito (via Spring Boot)
-* JDK 1.7
+* JDK 1.8
 
 ## Tools used:
 * Maven 3.*
 * Tomcat (embedded via Maven using Spring Boot)
 
 ## DB Used:
-* MySQL 5.7
+* MongoDB
 
 ## Setting up & running the project:
 * Restore the dev database dump file to your local MySQL server.
