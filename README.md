@@ -1,6 +1,10 @@
 # Koala REST
 
+Searches for fuel stations within a predefined distance
 
+For example:
+
+/api/koala/fuel/by-location?location=52.091167,4.342671&distance=90kilometers
 
 ## Libraries used:
 * Spring Boot 1.4.2 
