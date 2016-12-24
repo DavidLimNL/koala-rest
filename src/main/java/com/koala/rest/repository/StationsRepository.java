@@ -21,7 +21,7 @@ import com.koala.rest.model.Stations;
 public interface StationsRepository extends PagingAndSortingRepository<Stations, String>, QueryDslPredicateExecutor<Stations> {
 
 	@RestResource(rel = "by-location")
-	Page<Stations> findByAddressLocationNear(Point location, Distance distance, Pageable pageable);
+	Page<Stations> findByLocNear(Point location, Distance distance, Pageable pageable);
 
 	/**
 	 * Tweak the Querydsl binding if collection resources are filtered.
