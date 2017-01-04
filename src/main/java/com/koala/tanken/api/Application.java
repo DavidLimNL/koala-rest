@@ -1,4 +1,4 @@
-package com.koala.rest;
+package com.koala.tanken.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
