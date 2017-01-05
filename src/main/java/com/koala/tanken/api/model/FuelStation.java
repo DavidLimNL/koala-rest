@@ -6,7 +6,7 @@ import lombok.Value;
 
 
 @Value
-public class Stations {
+public class FuelStation {
 
 	String name;
 	String postalCode;
